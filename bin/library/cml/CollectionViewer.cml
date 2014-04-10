@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml css="library/css/CollectionViewer.css"  simulator="false">
+
+<LibraryKit>
+	<Library type="swf" src="library/swfs/openexhibits_assets.swf" />	
+</LibraryKit>
+
+
+<!-- Bottom Placeholders -->
+<Container>
+	<Graphic class="bg-rect-bot" x="152" scale="2" />
+	<Graphic class="bg-rect-bot" x="886" scale="2" />
+	<Graphic class="bg-rect-bot" x="1620" scale="2" />
+	<Graphic class="bg-rect-bot" x="2354" scale="2" />
+	<Graphic class="bg-rect-bot" x="3088" scale="2" />
+</Container>
+
+
+<!--Bottom container with transparent overlay to apply layouts on tap events-->
+<TouchContainer id="b_container" width="3840" height="2160">	
+	<Graphic shape="rectangle" width="3840" height="2160" alpha="0" y="0"/>
+	<GestureList>
+		<Gesture ref="n-tap" gestureOn="true"/>
+	</GestureList>	
+</TouchContainer>
+
+
+<CollectionViewer amountToShow="5" autoShuffle="true" bottomContainer="b_container" gateway="http://184.73.235.134/providence/amfphp-2.1/Amfphp/" scale="2">
+	
+	<Include src="library/cml/ImageViewer.cml"/>	
+	<Include src="library/cml/DockTemplate1080p.cml"/>
+	
+</CollectionViewer>	
+
+<StageKit displayFrameRate="true" fullscreen="true" escapeSprite="false" />
+
+</cml>
