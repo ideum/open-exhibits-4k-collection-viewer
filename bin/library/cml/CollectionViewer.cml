@@ -17,8 +17,8 @@
 
 
 <!--Bottom container with transparent overlay to apply layouts on tap events-->
-<TouchContainer id="b_container" width="3840" height="2160">	
-	<Graphic shape="rectangle" width="3840" height="2160" alpha="0" y="0"/>
+<TouchContainer id="b_container" width="1920" height="1080" scale="2">	
+	<Graphic shape="rectangle" width="1920" height="1080" alpha="0" y="0"/>
 	<GestureList>
 		<Gesture ref="n-tap" gestureOn="true"/>
 	</GestureList>	
