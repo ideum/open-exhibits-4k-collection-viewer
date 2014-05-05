@@ -8,6 +8,7 @@ package
 	import com.gestureworks.core.*;
 	import com.gestureworks.events.*;
 	import com.gestureworks.utils.FrameRate;
+	import com.gestureworks.utils.Stats;
 	import flash.events.*;
 	import flash.text.*;
 	import flash.utils.*;
@@ -32,6 +33,7 @@ package
 			fullscreen = true;
 		//	CMLParser.debug = true;
 			CMLParser.instance.addEventListener(CMLParser.COMPLETE, cmlInit);
+			addChild(new Stats());
 		}
 		
 		override protected function gestureworksInit():void

@@ -262,16 +262,16 @@
 						</analysis>	
 						<processing>
 							<inertial_filter>
-								<property ref="drag_dx" active="true" friction=".8"/>
-								<property ref="drag_dy" active="true" friction=".8"/>
+								<property ref="drag_dx" active="true" friction=".9"/>
+								<property ref="drag_dy" active="true" friction=".9"/>
 							</inertial_filter>
 							<delta_filter>
 								<property ref="drag_dx" active="true" delta_min="1" delta_max="100"/>
 								<property ref="drag_dy" active="true" delta_min="1" delta_max="100"/>
 							</delta_filter>
 							<boundary_filter>
-								<property ref="drag_dx" active="true" boundary_min="200" boundary_max="1720"/>
-								<property ref="drag_dy" active="true" boundary_min="250" boundary_max="830"/>								
+								<property ref="drag_dx" active="true" boundary_min="200" boundary_max="3820"/>
+								<property ref="drag_dy" active="true" boundary_min="250" boundary_max="2140"/>								
 							</boundary_filter>
 						</processing>
 						<mapping>
@@ -301,9 +301,9 @@
 							</algorithm>
 						</analysis>	
 						<processing>
-							<inertial_filter>
+					<!--		<inertial_filter>
 								<property ref="rotate_dtheta" active="true" friction="0.9"/>
-							</inertial_filter>
+							</inertial_filter>-->
 							<delta_filter>
 								<property ref="rotate_dtheta" active="true" delta_min="0.01" delta_max="20"/>
 							</delta_filter>
