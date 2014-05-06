@@ -4,8 +4,8 @@
 
 <Dock class="search" position="bottom" x="0" searchFields="organism,organismsubtype,organismlocation" returnFields="work_description" 
 searchTermFilters="true" y="800" handle="handle" leftHandle="leftHandle" rightHandle="rightHandle" width="1920" height="280" 
-initializeOpen="false" useSideHandles="true" background="background" maxClones="20" nextArrow="forward-btn" previousArrow="back-btn" resultsPerPage="500">
-	<Graphic id="background" color="0x14241D" width="1920" height="280" shape="rectangle" lineStroke="2"/>
+initializeOpen="false" useSideHandles="true" background="background" maxClones="50" nextArrow="forward-btn" previousArrow="back-btn" resultsPerPage="500" handleGestureList="n-tap:true">
+	<Graphic id="background" color="0x14241D" width="1920" height="280" shape="rectangle" lineStroke="0"/>
 	
 	<!-- Pagination buttons -->
 	<Container id="forward-btn" width="60" height="60" x="0" y="30">
@@ -20,20 +20,20 @@ initializeOpen="false" useSideHandles="true" background="background" maxClones="
 
 	<!--Handles-->
 	<TouchContainer id="handle" height="60">
-		<Graphic shape="roundRectangleComplex" lineStroke="2" width="1920" fill="color" color="0x14241D" topLeftRadius="20" topRightRadius="20" height="60"/>
+		<Graphic shape="roundRectangleComplex" lineStroke="0" width="1920" fill="color" color="0x14241D" topLeftRadius="20" topRightRadius="20" height="60"/>
 		<SWF alpha="1" x="25" y="20" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.ArrowOutline" />		
 		<SWF alpha="1" x="1880" y="20" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.ArrowOutline" />		
 		<Text y="5" selectable="false" text="BROWSE" font="OpenSansLight" fontSize="30" width="1920" autoSize="center" textColor="0xffffff" cacheAsBitmap="true" />
 	</TouchContainer>
 	
 	<TouchContainer id="leftHandle" height="370" width="60">
-		<Graphic shape="roundRectangleComplex" lineStroke="2" width="60" color="0x14241D" topLeftRadius="20" height="370"/>
+		<Graphic shape="roundRectangleComplex" lineStroke="0" width="60" color="0x14241D" topLeftRadius="20" height="370"/>
 		<SWF alpha="1" x="40" y="40" color="0xFFFFFF" scale="1.6" rotation="180" classRef="org.openexhibits.assets.ArrowOutline" />
 		<Text x="17" y="55" selectable="false" text="DOCK" leading="-5" font="OpenSansLight" fontSize="30" height="300" width="30" multiline="true" wordWrap="true" textColor="0xffffff" cacheAsBitmap="true" />		
 	</TouchContainer>	
 	
 	<TouchContainer id="rightHandle" height="370" width="60">
-		<Graphic shape="roundRectangleComplex" lineStroke="2" width="60" color="0x14241D" topRightRadius="20" height="370"/>
+		<Graphic shape="roundRectangleComplex" lineStroke="0" width="60" color="0x14241D" topRightRadius="20" height="370"/>
 		<SWF alpha="1" x="40" y="40" color="0xFFFFFF" scale="1.6" rotation="180" classRef="org.openexhibits.assets.ArrowOutline" />
 		<Text x="17" y="55" selectable="false" text="DOCK" leading="-5" font="OpenSansLight" fontSize="30" height="300" width="30" multiline="true" wordWrap="true" textColor="0xffffff" cacheAsBitmap="true" />		
 	</TouchContainer>	
