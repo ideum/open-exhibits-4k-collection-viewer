@@ -84,7 +84,7 @@ initializeOpen="false" useSideHandles="true" background="background" maxClones="
 			<Graphic y="1" shape="rectangle" width="975" height="280" fill="color" color="0x14241D" lineStroke="1" lineColor="0x303030"/>
 			<Text id="result_text" selectable="false" y="1" text="" font="OpenSansBold" fontSize="22" width="945" autoSize="center" textColor="0xffffff"/>
 			<MenuAlbum x="15" id="menu1" y="41" width="945" loop="false" margin="8" snapping="false" centerContent="false" backgroundColor="0x14241D"/>	
-			<Text id="title-text"  selectable="false" class="dock-text" x="20" y="20" text="Encyclopedia of Life" font="OpenSansBold" fontSize="34" border="false" borderColor="0xFFFFFF" height="1000" width="970" autoSize="left" textColor="0xffffff"/>
+			<Text id="title-text"  selectable="false" class="dock-text" x="20" y="20" text="Scenic Southwest Collection" font="OpenSansBold" fontSize="34" border="false" borderColor="0xFFFFFF" height="1000" width="970" autoSize="left" textColor="0xffffff"/>
 			<Text id="instr-text"  selectable="false" class="dock-text" x="20" y="80" text="Use the dials to make a selection. Tap on the thumbnails to load them onto the table." font="OpenSansBold" fontSize="25" border="false" borderColor="0xFFFFFF" height="500" width="700" wordWrap="true" multiline="true" autoSize="left" textColor="0xffffff"/>				
 			
 			<Container  x="50" y="25" id="info-pane" visible="false">
@@ -95,15 +95,13 @@ initializeOpen="false" useSideHandles="true" background="background" maxClones="
 				<ScrollPane id="info-scroll" y="12.5" visible="true" width="845" height="148" paneStroke="0" paneStrokeColor="0xff0000" scrollThickness="20" mouseChildren="true" 
 				targetParent="false" clusterBubbling="true" nativeTransform="true">
 					<ScrollBar buttonFill="0x333333" fill="0x303030" thumbFill="0x555555" railShape="roundRectangle" cornerHeight="15" cornerWidth="15" buttonVisible="false" y="25" scaleY=".8"/>
-					<Container x="11" y="3" width="837" height="255">
-						<Text text="Encyclopedia of Life" width="815" color="0xFFFFFF" y="3" selectable="false" font="OpenSansBold" fontSize="24" autoSize="left"/>
+					<Container x="11" y="3" width="837" height="275">
+						<Text text="Scenic Southwest Collection" width="815" color="0xFFFFFF" y="3" selectable="false" font="OpenSansBold" fontSize="24" autoSize="left"/>
 						<Text  selectable="false" id="info_text"  
 							font="OpenSansRegular" fontSize="18" border="false" borderColor="0xFFFFFF" width="837" 
 							wordWrap="true" multiline="true" autoSize="left" textColor="0xffffff" y="53">
 							
-							<p>Through the Encyclopedia of Life, Flickr users provide images and videos of organisms for the Encyclopedia of Life web site. This is a small selection of photos available on the Encyclopedia of Life Flickr Group.</p>
-							
-							<p>Ideally, images for EOL should be in focus, high resolution pictures of live organisms in their natural habitat. However, pictures of cultivated plants, captive animals, or dead specimens are ok, especially if the organism is rarely encountered in the wild. However, please be sure to indicate clearly in the image caption if your photograph is of a captive, cultivated, or dead specimen, and always include location information for organisms photographed in the wild.</p>
+							<p>This collection is a visual exploration of the dynamic cultural and physical landscape of the southwestern United States. This sample collection was developed for demonstration purposes by the Open Exhibits project. The photographs are all license free through Creative Commons and were provided from various photographers on Flickr. The images capture many of the features that set the southwest apart such as its sprawling desert landscapes, culturally influenced art and architecture, and its varied plant and animal life. This collection aims to give viewers a chance to see just some of what gives this corner of the United States its draw. Whether it is a photo of the powerful Rio Grande or the grandeur of a mountain range against the backdrop of a sunset, viewers will see why so many call the southwest home.</p>
 							
 						</Text>
 					</Container>
