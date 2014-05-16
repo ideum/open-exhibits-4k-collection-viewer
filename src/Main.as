@@ -33,7 +33,7 @@ package
 			fullscreen = true;
 		//	CMLParser.debug = true;
 			CMLParser.instance.addEventListener(CMLParser.COMPLETE, cmlInit);
-			addChild(new Stats());
+			//addChild(new Stats());
 		}
 		
 		override protected function gestureworksInit():void
