@@ -1,15 +1,15 @@
 
 ; The name of the project
-Name "CollectionViewer_4k" ; Write the name of your project here between ""
+Name "Openexhibits4kcollectionviewer" ; Write the name of your project here between ""
 
 ;Name of the installer
-OutFile "CollectionViewer_4k.exe" ; Write the name of your installer executable here 
+OutFile "Openexhibits4kcollectionviewer.exe" ; Write the name of your installer executable here 
 
 ; The default installation directory
 InstallDir $PROGRAMFILES32\Ideum
 
 ; The text to prompt the user to enter a directory
-DirText "This will install the CollectionViewer_4k application. Choose a root directory:" ; Write your project name again here
+DirText "This will install the Openexhibits4kcollectionviewer application. Choose a root directory:" ; Write your project name again here
 
 RequestExecutionLevel admin
 
@@ -18,11 +18,11 @@ RequestExecutionLevel admin
 ; The stuff to install
 Section "" ;No components page, name is not important
 
-!define NAME "CollectionViewer_4k" ;Write project name here
+!define NAME "Openexhibits4kcollectionviewer" ;Write project name here
 
-!define EXECUTABLE "CollectionViewer_4k.exe" ;Write name of your .exe file that you converted from .swf and are including in the installer.
+!define EXECUTABLE "Openexhibits4kcollectionviewer.exe" ;Write name of your .exe file that you converted from .swf and are including in the installer.
 
-!define FILENAME "CollectionViewer_4k" ; Write root file name with no spaces ex: (NationalParkService)
+!define FILENAME "Openexhibits4kcollectionviewer" ; Write root file name with no spaces ex: (NationalParkService)
 
 SetShellVarContext all
 
