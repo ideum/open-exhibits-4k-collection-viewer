@@ -79,10 +79,10 @@
 								<property ref="scale_dsx" active="true" delta_min="0" delta_max=".2"/>
 								<property ref="scale_dsy" active="true" delta_min="0" delta_max=".2"/>
 							</delta_filter>
-							<boundary_filter>
-								<property ref="scale_dsx" active="true" boundary_min="0.6" boundary_max="1.2"/>
-								<property ref="scale_dsy" active="true" boundary_min="0.6" boundary_max="1.2"/>
-							</boundary_filter>
+							<!--<boundary_filter>
+								<property ref="scale_dsx" active="true" boundary_min="0.6" boundary_max="2"/>
+								<property ref="scale_dsy" active="true" boundary_min="0.6" boundary_max="2"/>
+							</boundary_filter>-->
 						</processing>
 						<analysis>
 							<algorithm class="kinemetric" type="continuous">
